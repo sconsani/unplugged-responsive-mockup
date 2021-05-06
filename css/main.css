@@ -1,40 +1,48 @@
-                                          /*MAIN CSS FOR HOMEPAGE*/
+ /*MAIN CSS FOR HOMEPAGE*/
+
+
+/*BASE HEADER FOOTER STYLES*/
 
 body{
   min-width: 480px;
   color: black;
   font-size: 18px;
-  
 }
 
-.header{
+header, footer {
   display: flex;
-  align-content: center;
   justify-content: center;
-  width: 100%;
-  height: 65px;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
-nav {
-    display: flex;
-    align-content: center;
-    justify-content: space-around;
-    padding: 0 20px;
-    flex-wrap: wrap;
-    flex-direction: row;
-    width: 100%;
-    height: 57px;
-    text-transform: uppercase;
-    font-family: 'Open Sans', sans-serif;
-
-
-
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
-nav p a {
-  color: white;
-  text-decoration: none;
-  font-size: 18px;
-    
-  
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .social-icons p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
